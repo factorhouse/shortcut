@@ -1,4 +1,4 @@
-# kPow // Shortcut
+# Shortcut
 
 - Who.
 - Goals.
