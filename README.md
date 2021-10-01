@@ -1,6 +1,7 @@
-# OPERATR // Shortcut
+# kPow // Shortcut
 
-Operatr.IO template for Enterprise Clojure Development.
+- Who.
+- Goals.
+- Process.
 
-
-Copyright © OPERATR 2020.
+Copyright © Operatr.IO, 2020.
