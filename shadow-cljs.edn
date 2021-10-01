@@ -1,0 +1,22 @@
+{:lein     {:profile "+cljs"}
+
+ :dev-http {8000              "classpath:public"
+            :push-state/index "live.html"}
+
+ :builds   {:app  {:target           :browser
+                   :output-dir       "resources/public/js"
+                   :asset-path       "/js"
+                   :devtools         {:watch-dir "resources/public"}
+                   :modules          {:main {:entries [shortcut.ui.client]}}
+                   :compiler-options {:output-feature-set :es8}
+                   :release          {:module-hash-names true}}
+
+            :live {:target           :browser
+                   :modules          {:main {:entries [shortcut.ui.client]}}
+                   :compiler-options {:output-feature-set :es8}
+                   :output-dir       "resources/public/js"
+                   :asset-path       "/js"
+                   :devtools         {:watch-dir "resources/public"}
+                   :closure-defines  {"re_frame.trace.trace_enabled_QMARK_" true
+                                      operatr.generate/release              1
+                                      operatr.generate/release-time         "2021-10-01"}}}}
