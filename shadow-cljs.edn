@@ -17,6 +17,4 @@
                    :output-dir       "resources/public/js"
                    :asset-path       "/js"
                    :devtools         {:watch-dir "resources/public"}
-                   :closure-defines  {"re_frame.trace.trace_enabled_QMARK_" true
-                                      operatr.generate/release              1
-                                      operatr.generate/release-time         "2021-10-01"}}}}
+                   :closure-defines  {"re_frame.trace.trace_enabled_QMARK_" true}}}}

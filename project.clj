@@ -1,6 +1,6 @@
-(defproject io.operatr/shortcut "0.1.0"
+(defproject io.factorhouse/shortcut "0.1.0"
 
-  :description "Shortcut by Operatr.IO"
+  :description "Shortcut by Factor House"
 
   :min-lein-version "2.9.0"
 

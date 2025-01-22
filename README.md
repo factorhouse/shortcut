@@ -4,4 +4,4 @@
 - Goals.
 - Process.
 
-Copyright © Operatr.IO, 2020.
+Copyright © Factor House
